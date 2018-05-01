@@ -1,6 +1,7 @@
 import requests
 import hmac
 import hashlib
+from collections import OrderedDict
 from urllib.parse import urlencode
 
 
@@ -13,12 +14,12 @@ class CoinPaymentsAPI:
         self.private_key = private_key
 
     def _build_params(self, command, **kwargs):
-        base_params = {'version': self.api_version,
-                       'key': self.public_key,
-                       'cmd': command,
-                       'format': 'json'}
+        base_params = [('version', self.api_version),
+                       ('key', self.public_key),
+                       ('cmd', command),
+                       ('format', 'json')]
 
-        return urlencode(dict(base_params, **kwargs))
+        return urlencode(OrderedDict(base_params + sorted(kwargs.items())))
 
     def _build_signature(self, params):
         if not isinstance(params, bytes):
