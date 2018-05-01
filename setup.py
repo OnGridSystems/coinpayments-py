@@ -29,7 +29,7 @@ setup(
 
     keywords='coinpayments currencies crypto',
 
-    packages=find_packages(exclude=['tests'])
+    packages=find_packages(exclude=['tests']),
 
     install_requires=['requests'],
 
