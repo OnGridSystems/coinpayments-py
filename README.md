@@ -1,4 +1,5 @@
 # CoinPayments API Client
+[![Build Status](https://travis-ci.org/OnGridSystems/coinpayments-py.svg?branch=master)](https://travis-ci.org/OnGridSystems/coinpayments-py)
 
 [CoinPayments](https://www.coinpayments.net) | [API Documentation](https://www.coinpayments.net/merchant-tools-api)
 
