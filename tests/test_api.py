@@ -26,7 +26,7 @@ class TestAPI(TestCase):
                 'Content-Type': 'application/x-www-form-urlencoded'
             })
 
-        response_mock.json.assert_called_once()
+        assert response_mock.json.call_count == 1
 
     def test_check_signature(self):
         data = 'version=1&key=a2308cc5846557e67b377623dbd2ce939a5fd997ab8302e2295ae65ba1d757e7&cmd=rates&format=json'
