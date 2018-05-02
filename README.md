@@ -33,7 +33,7 @@ Call any CoinPayments API method as `api` object method with corresponding argum
 {'error': 'ok', 'result': {'address': '36v6r1XuaWPtrTuhF8iq8AfBzPS8D4eios'}}
 ```
 
-Also you can check IPN HMAC signature using `check_signature` method
+Also, you can check IPN HMAC signature using `check_signature` method
 ```
 >>> from coinpayments import CoinPaymentsAPI
 >>> api = CoinPaymentsAPI(public_key=None,
