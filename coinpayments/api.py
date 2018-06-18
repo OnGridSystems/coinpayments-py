@@ -123,3 +123,13 @@ class CoinPaymentsAPI:
         command = 'get_conversion_info'
 
         return self.send_api_request(command, **kwargs)
+
+    def create_withdrawal(self, **kwargs):
+        command = 'create_withdrawal'
+
+        return self.send_api_request(command, **kwargs)
+
+    def create_mass_withdrawal(self, **kwargs):
+        command = 'create_mass_withdrawal'
+
+        return self.send_api_request(command, **kwargs)
