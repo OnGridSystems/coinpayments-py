@@ -1,13 +1,19 @@
 # CoinPayments API Client
 [![Build Status](https://travis-ci.org/OnGridSystems/coinpayments-py.svg?branch=master)](https://travis-ci.org/OnGridSystems/coinpayments-py)
+[![PyPI version](https://badge.fury.io/py/coinpayments-py.svg)](https://badge.fury.io/py/coinpayments-py)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/coinpayments-py.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[CoinPayments](https://www.coinpayments.net) | [API Documentation](https://www.coinpayments.net/merchant-tools-api)
+Use this library to easily interact with [CoinPayments](https://www.coinpayments.net) crypto/coin payment gateway API directly from your Python 3 application. 
 
-This library will let you to easily interact with CoinPayments API directly from your Python application.
+## Documentation
+
+* [API Documentation](https://www.coinpayments.net/merchant-tools-api) on official website.
 
 ## Installation
 
-To install coinpayments-py, simply use pip:
+Use pip to install coinpayments-py:
 
 ```
 pip install coinpayments-py
@@ -44,5 +50,4 @@ False
 
 ## Contributing
 
-Contributions are welcome and will be fully credited.
-Contributions can be made via a Pull Request.
+Contributions are welcome. You can learn how from this free series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
